@@ -8,6 +8,45 @@ In the project directory, you can run:
 
 ### `npm start`
 
+##Assessment
+
+Create a React component that fetches data from an API and displays a list of items. 
+
+The API endpoint for fetching data is https://api.example.com/items. Each item has the following structure:
+
+{
+
+  "id": 1,
+
+  "name": "Item 1",
+
+  "description": "This is item 1."
+
+}
+
+Note: Alternately, the replication of the endpoint can be a JSON file with the list of items as provided in the example.
+
+Requirements:
+
+Use the useState hook to manage the state of the items.
+Fetch data from the API when the component mounts using the useEffect hook.
+Display the list of items with their names and descriptions.
+Handle any loading or error states appropriately.
+Implement a button that allows the user to refresh the list of items.
+Feel free to use any additional libraries or tools you find necessary. Ensure that the code is clean, readable, and follows best practices in React development.
+
+Evaluation Criteria: 
+
+Proper use of React hooks (useState, useEffect).
+Correct handling of API requests, loading, and error states.
+Clean and organized component structure.
+Use of proper error handling.
+Implementation of the refresh button.
+Overall code quality and adherence to best practices.
+
+
+
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
